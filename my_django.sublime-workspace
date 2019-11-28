@@ -1,0 +1,940 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"y",
+				"y_test"
+			],
+			[
+				"X",
+				"X_test"
+			],
+			[
+				"X_",
+				"X_train"
+			],
+			[
+				"fore",
+				"forecast_set"
+			],
+			[
+				"y_t",
+				"y_train"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"con",
+				"contest_id"
+			],
+			[
+				"contes",
+				"contest_id"
+			],
+			[
+				"as",
+				"assertEqual"
+			],
+			[
+				"conte",
+				"contest_id"
+			],
+			[
+				"cont",
+				"contest_id"
+			],
+			[
+				"lin",
+				"line"
+			],
+			[
+				"ass",
+				"assertNotIn"
+			],
+			[
+				"wri",
+				"write_to_file"
+			],
+			[
+				"user_d",
+				"user_db_file"
+			],
+			[
+				"m",
+				"my_arr"
+			],
+			[
+				"tes",
+				"test_total_no_of_problems"
+			],
+			[
+				"sub",
+				"subs_by_contest_id"
+			],
+			[
+				"max",
+				"max_val"
+			],
+			[
+				"ma",
+				"max_count"
+			],
+			[
+				"ran",
+				"rank"
+			],
+			[
+				"alci",
+				"alice_ranks"
+			],
+			[
+				"alic",
+				"alice_ranks"
+			],
+			[
+				"al",
+				"alice_ranks"
+			],
+			[
+				"get",
+				"getMin"
+			],
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"fram",
+				"frames_OPR"
+			],
+			[
+				"page",
+				"page_string"
+			],
+			[
+				"prit",
+				"printf\tprintf …"
+			],
+			[
+				"pthre",
+				"pthread"
+			],
+			[
+				"pri",
+				"printf\tprintf …"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"fra",
+				"frames"
+			],
+			[
+				"pag",
+				"page"
+			],
+			[
+				"frames",
+				"frames_LRU"
+			],
+			[
+				"fr",
+				"frames_LRU"
+			],
+			[
+				"prin",
+				"printOrder"
+			],
+			[
+				"pro",
+				"processes"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"proc",
+				"process_table"
+			],
+			[
+				"paddle",
+				"paddlePosL"
+			],
+			[
+				"DOWN",
+				"DOWN_LEFT"
+			],
+			[
+				"paddl",
+				"paddlePosL"
+			],
+			[
+				"paddlePos",
+				"paddlePosR"
+			],
+			[
+				"pla",
+				"playerPaddleUpdateR"
+			],
+			[
+				"playerPad",
+				"playerPaddleUpdateL"
+			],
+			[
+				"UP",
+				"UP_RIGHT"
+			],
+			[
+				"game",
+				"gameStarted"
+			],
+			[
+				"q",
+				"q"
+			],
+			[
+				"threa",
+				"thread2"
+			],
+			[
+				"pthr",
+				"pthread_t"
+			],
+			[
+				"sim",
+				"simple_exit"
+			],
+			[
+				"modu",
+				"module_init"
+			],
+			[
+				"print",
+				"printk"
+			],
+			[
+				"egd",
+				"edgeSet"
+			],
+			[
+				"edg",
+				"edgeSet"
+			],
+			[
+				"ver",
+				"vertex"
+			],
+			[
+				"cou",
+				"count1"
+			],
+			[
+				"Pri",
+				"PrintSet"
+			],
+			[
+				"Ad",
+				"AddEdgeToMST"
+			],
+			[
+				"Ini",
+				"InitializeMST"
+			],
+			[
+				"E",
+				"E"
+			],
+			[
+				"vert",
+				"vertex"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"nex",
+				"nextQNode"
+			],
+			[
+				"cur",
+				"currentVertex"
+			],
+			[
+				"curr",
+				"currentEdge"
+			],
+			[
+				"cu",
+				"currentSNode-"
+			],
+			[
+				"is",
+				"isVisited"
+			],
+			[
+				"edge",
+				"edge"
+			],
+			[
+				"ne",
+				"nextEdge"
+			],
+			[
+				"end",
+				"end"
+			],
+			[
+				"Pus",
+				"Push"
+			],
+			[
+				"te",
+				"temp"
+			],
+			[
+				"tem",
+				"temp1"
+			],
+			[
+				"vre",
+				"vertexSet"
+			],
+			[
+				"DF",
+				"DFS"
+			],
+			[
+				"ti",
+				"time"
+			],
+			[
+				"tim",
+				"timeStamp"
+			],
+			[
+				"curre",
+				"currentEdge"
+			],
+			[
+				"DFS",
+				"DFSVisit"
+			],
+			[
+				"ty",
+				"type2"
+			],
+			[
+				"Cre",
+				"CreateRandomGraph2"
+			],
+			[
+				"Crea",
+				"CreateRandomGraph"
+			],
+			[
+				"En",
+				"EnQ"
+			],
+			[
+				"so",
+				"sourceVertexNo"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"vr",
+				"vertexNo"
+			],
+			[
+				"new",
+				"newQNode"
+			],
+			[
+				"ed",
+				"edgeSet"
+			],
+			[
+				"nod",
+				"node2"
+			],
+			[
+				"ve",
+				"vertex"
+			],
+			[
+				"node",
+				"node"
+			],
+			[
+				"no",
+				"node_to_insert"
+			],
+			[
+				"AddEdge",
+				"AddEdgeMatrix"
+			],
+			[
+				"INi",
+				"InitializeMatrix"
+			],
+			[
+				"Tr",
+				"TransposeAdjList"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"Ta",
+				"TransposeAdjList"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"suc",
+				"succ"
+			],
+			[
+				"In",
+				"InOrderWalk"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"t",
+				"tuple"
+			],
+			[
+				"Di",
+				"DirectAddressDelete"
+			],
+			[
+				"Dir",
+				"DirectAddressInsert"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"Add",
+				"AddLeftChild"
+			],
+			[
+				"pr",
+				"prev"
+			],
+			[
+				"De",
+				"Dequeue"
+			],
+			[
+				"Ins",
+				"InsertAtPosition"
+			],
+			[
+				"he",
+				"head"
+			],
+			[
+				"head",
+				"head_ptr"
+			],
+			[
+				"hea",
+				"head"
+			],
+			[
+				"tai",
+				"tail"
+			],
+			[
+				"stac",
+				"stack"
+			],
+			[
+				"nam",
+				"namesIt"
+			],
+			[
+				"main",
+				"mainthread"
+			],
+			[
+				"Iter",
+				"Iterator"
+			],
+			[
+				"mem",
+				"mem_acceses"
+			],
+			[
+				"emp",
+				"empty_block"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"cach",
+				"cache"
+			],
+			[
+				"cac",
+				"cache"
+			],
+			[
+				"bloc",
+				"blocks"
+			],
+			[
+				"blokc",
+				"blocks"
+			],
+			[
+				"blok",
+				"blocks"
+			],
+			[
+				"Ca",
+				"Cache"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pages/views.py",
+			"settings":
+			{
+				"buffer_size": 176,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "my_first_django_project/urls.py",
+			"settings":
+			{
+				"buffer_size": 873,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Bookmarks: Select All"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/flyingbag63/Documents/GitHub/GlobalCC-python-flyingbag63-2",
+		"/C/Users/flyingbag63/Documents/web_development/src",
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project",
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project/my_first_django_project",
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project/my_first_django_project/__pycache__",
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project/pages"
+	],
+	"file_history":
+	[
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project/my_first_django_project/settings.py",
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project/products/admin.py",
+		"/C/Users/flyingbag63/Documents/web_development/src/my_first_django_project/products/models.py",
+		"/C/Users/flyingbag63/Documents/ml_stuff/k_nearest_neighbors.py",
+		"/C/Users/flyingbag63/Documents/ml_stuff/support_vector_machines.py",
+		"/C/Users/flyingbag63/Documents/web_development/style.css",
+		"/C/Users/flyingbag63/Documents/web_development/form.html",
+		"/C/Users/flyingbag63/Documents/web_development/script.js",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/tle/cogs/codeforces.py",
+		"/C/Users/flyingbag63/Downloads/TLE tests/test_upsolve.py",
+		"/C/Users/flyingbag63/Downloads/TLE tests/total_problems.txt",
+		"/C/Users/flyingbag63/Downloads/TLE tests/journal.txt",
+		"/C/Users/flyingbag63/Downloads/TLE tests/final_output.txt",
+		"/C/Users/flyingbag63/Documents/ml_stuff/avila-ts.txt",
+		"/C/Users/flyingbag63/Documents/ml_stuff/avila-tr.txt",
+		"/C/Users/flyingbag63/Documents/ml_stuff/avila-description.txt",
+		"/C/Users/flyingbag63/Documents/ml_stuff/avila/avila-tr.txt",
+		"/C/Users/flyingbag63/Documents/ml_stuff/avila/avila-ts.txt",
+		"/C/Users/flyingbag63/Documents/ml_stuff/breast-cancer-wisconsin.data",
+		"/C/Users/flyingbag63/Documents/ml_stuff/breast-cancer-wisconsin.names",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/personal/templates/personal/home.html",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/mysite/urls.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/personal/urls.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/mysite/settings.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/manage.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/personal/views.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/personal/apps.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/personal/templates/personal/header.html",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/webapp/urls.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/webapp/views.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/mysite/wsgi.py",
+		"/C/Users/flyingbag63/Documents/web_development/mysite/mysite/__init__.py",
+		"/C/Users/flyingbag63/Documents/ml_stuff/regression.py",
+		"/C/Users/flyingbag63/Documents/ai_stuff/q_learning1.py",
+		"/C/Users/flyingbag63/Downloads/TLE tests/contest_submissions.txt",
+		"/C/Users/flyingbag63/Downloads/TLE tests/contest_ids.txt",
+		"/C/Users/flyingbag63/Downloads/TLE tests/test_topfive.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/test_top_five.py",
+		"/C/Users/flyingbag63/Documents/python_1/july_long/test.py",
+		"/C/Users/flyingbag63/Documents/python_1/july_long/what.py",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/tle/util/unit_tests.py",
+		"/C/Users/flyingbag63/Downloads/4d522d6c51f311e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/31d232aafb0b11e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/31c8558cfb0b11e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/31ab2746fb0b11e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/31b241e8fb0b11e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/31c11178fb0b11e9.txt.clean (2).txt",
+		"/C/Users/flyingbag63/Downloads/31c11178fb0b11e9.txt.clean (1).txt",
+		"/C/Users/flyingbag63/Downloads/319c4baefb0b11e9.txt.clean (1).txt",
+		"/C/Users/flyingbag63/Downloads/3194b9defb0b11e9.txt.clean (2).txt",
+		"/C/Users/flyingbag63/Downloads/31b9dcb4fb0b11e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/31b241e8fb0b11e9.txt.clean (1).txt",
+		"/C/Users/flyingbag63/Downloads/3194b9defb0b11e9.txt.clean.txt",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/contest_submissions.txt",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/total_problems.txt",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/contest_ids.txt",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/tle/util/run_tests.py",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/contents.txt",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/tle/cogs/contents.txt",
+		"/C/Users/flyingbag63/Documents/TLE/TLE-master/tle/util/getVariables.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/getVariables.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/unit_tests.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/cogs/codeforces.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/my_test_file.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/codeforces_api.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/db/user_db_conn.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/util/codeforces_common.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/cogs/my_test_file.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/cogs/test_top_five.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/cogs/unit_tests.py",
+		"/C/Users/flyingbag63/Documents/GitHub/TLE/tle/cogs/test_no_of_problems_solved.py",
+		"/C/Users/flyingbag63/Downloads/Errichto-0000000000190801.cpp",
+		"/C/Users/flyingbag63/Downloads/nlp/New Text Document.txt",
+		"/C/Users/flyingbag63/Downloads/nlp/processed.txt",
+		"/C/Users/flyingbag63/Downloads/nlp/The Adventures of Sherlock Holmes.txt",
+		"/C/Users/flyingbag63/Downloads/nlp/1661-0.txt",
+		"/C/Users/flyingbag63/Downloads/nlp/lol.txt",
+		"/C/Users/flyingbag63/Downloads/Errichto-00000000001915e7.cpp",
+		"/C/Users/flyingbag63/Documents/a.cpp",
+		"/C/Users/flyingbag63/Documents/GitHub/GlobalCC-python-flyingbag63-2/python/vcc_skeleton.py",
+		"/C/Users/flyingbag63/.vscode/extensions/ms-python.python-2018.10.1/node_modules/sshpk/lib/signature.js",
+		"/C/Users/flyingbag63/.vscode/extensions/ms-python.python-2018.10.1/node_modules/sshpk/lib/private-key.js",
+		"/C/Users/flyingbag63/.vscode/extensions/ms-python.python-2018.10.1/node_modules/sshpk/lib/key.js",
+		"/C/Users/flyingbag63/Downloads/62acce36bb0111e7.txt.clean.txt",
+		"/C/Users/flyingbag63/Downloads/New folder/Call of Duty Black Ops 2 PC game SP+MP+ZM/READ ME FIRST !!!.txt",
+		"/C/Users/flyingbag63/Downloads/decode this",
+		"/C/Users/flyingbag63/Documents/projects/COA/Cache_mem_access.c",
+		"/C/Users/flyingbag63/Documents/projects/COA/coa.c",
+		"/C/Users/flyingbag63/Documents/projects/Myproject/Untitled8.h",
+		"/C/Users/flyingbag63/Documents/projects/student_record.c",
+		"/C/Users/flyingbag63/Documents/python_1/usaco/gift1.out",
+		"/C/Users/flyingbag63/Documents/OS/simple.c",
+		"/C/Users/flyingbag63/Documents/OS/thread.c",
+		"/C/Users/flyingbag63/Documents/OS/heperTA.c",
+		"/C/Users/flyingbag63/Documents/OS/ticket_seller.c",
+		"/C/Users/flyingbag63/Documents/OS/fork_pipe_thread.c",
+		"/C/Users/flyingbag63/Documents/python_1/usaco/ride.in",
+		"/C/Users/flyingbag63/Documents/OS/mem_mangment.c",
+		"/C/Users/flyingbag63/Documents/projects/abcd/Untitled1.c",
+		"/C/Users/flyingbag63/Documents/projects/abcd/abcd.c",
+		"/C/Users/flyingbag63/Documents/python_1/words.txt",
+		"/C/Users/flyingbag63/Documents/python_1/usaco/dict.txt",
+		"/C/Users/flyingbag63/Documents/python_1/ride.in",
+		"/C/Users/flyingbag63/Documents/python_1/gift1.out",
+		"/C/Users/flyingbag63/Documents/python_1/ride.out",
+		"/C/Users/flyingbag63/Downloads/logicmachine-0000000000135247.txt",
+		"/C/Users/flyingbag63/Downloads/dennis97519-00000000001375c8.txt",
+		"/C/Users/flyingbag63/Downloads/Anadi2-00000000001237f2.txt",
+		"/C/Users/flyingbag63/Downloads/tonowak-000000000012cd19.txt",
+		"/C/Users/flyingbag63/Downloads/fblogy-000000000012492a.txt",
+		"/C/Users/flyingbag63/Downloads/tonowak-000000000012963e.txt",
+		"/C/Users/flyingbag63/Downloads/Benq-0000000000123bd9.txt",
+		"/F/Dragon Age - Inquisition [FitGirl Repack]/fg-02.bin",
+		"/F/Dragon Age - Inquisition [FitGirl Repack]/fg-01.bin",
+		"/C/Users/flyingbag63/Downloads/C-small-practice.in",
+		"/C/Users/flyingbag63/Documents/c.c",
+		"/C/Users/flyingbag63/AppData/Local/Temp/Rar$DIa10932.47694/LiquidCrystal.h",
+		"/C/Users/flyingbag63/AppData/Local/Temp/Rar$DIa10932.1261/LiquidCrystal.cpp",
+		"/C/Users/flyingbag63/AppData/Local/Temp/Rar$DIa10932.9840/keywords.txt",
+		"/C/Users/flyingbag63/Downloads/C-large-practice.in",
+		"/C/Users/flyingbag63/Downloads/codejam.cpp",
+		"/C/Users/flyingbag63/Downloads/C.cpp",
+		"/C/Users/flyingbag63/Downloads/c.cpp",
+		"/C/Users/flyingbag63/Downloads/D.cpp",
+		"/C/Users/flyingbag63/Downloads/B-large-practice.in",
+		"/C/Users/flyingbag63/Documents/python_1/utkarsh.cpp",
+		"/C/Users/flyingbag63/AppData/Local/Temp/Rar$DIa11896.13817/d.cpp",
+		"/C/Users/flyingbag63/Downloads/ans"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"?",
+			"self",
+			"cache2",
+			"def test_total_no_of_problems(self):\n\t\tpass",
+			"gutenberg",
+			"guten",
+			"gutenberg",
+			"Gutenberg",
+			"Guten",
+			"wa",
+			"wa ",
+			" wa ",
+			"wa",
+			" s ",
+			"wrote",
+			" s ",
+			"s",
+			"s'",
+			"'s",
+			" s ",
+			"s",
+			"'",
+			"mens",
+			" s ",
+			"!",
+			"+",
+			")",
+			"(",
+			"*",
+			"/",
+			"'",
+			"isnt",
+			" im ",
+			" im",
+			"im",
+			"isn",
+			"isn'",
+			"isn't",
+			"isnt",
+			"is'nt",
+			"isn't",
+			"is'nt",
+			"isn't",
+			"_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pages/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "my_first_django_project/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "my_django.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\flyingbag63\\Documents\\random_codes\\kruskal.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,165 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %"}>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<!--===============================================================================================-->
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="{% static 'images/img-01.png' %}" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form" method = "POST" action = "/store_in_db">
+					{% csrf_token %}
+					<fieldset class = "visitor_details" id = "vis_details">
+						<span class="login100-form-title">
+							Visitor
+						</span>
+
+						<div class="wrap-input100 validate-input" data-validate = "Please enter your name">
+							<input class="input100" type="text" name="visitor_name" placeholder="Name" required>
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+							<input class="input100" type="email" name="visitor_email" placeholder="Email" required>
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid Phone no. is required: 9999999999">
+							<input class="input100" type="text" name="visitor_phone" placeholder="Phone(xxxxxxxxxx)" pattern = "[6789][0-9]{9}" required>
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid time is required: HH:MM">
+							<input class="input100" type="text" name="check_in_time" placeholder="Checkin time(HH:MM)" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" required>
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid time is required: HH:MM">
+							<input class="input100" type="text" name="check_out_time" placeholder="Checkout time(HH:MM)" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" required>
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+						
+						<div class="container-login100-form-btn">
+							<button class="login100-form-btn" name = "checkin">
+								Checkin
+							</button>
+						</div>
+
+					</fieldset>
+
+					<fieldset class = "host_details" id = hos_details>
+						<span class="login100-form-title">
+							Host
+						</span>
+
+						<div class="wrap-input100 validate-input" data-validate = "Please enter your name">
+							<input class="input100" type="text" name="host_name" placeholder="Name" >
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+							<input class="input100" type="email" name="host_email" placeholder="Email" >
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+
+						<div class="wrap-input100 validate-input" data-validate = "Valid Phone no. is required: 9999999999">
+							<input class="input100" type="text" name="host_phone" placeholder="Phone(xxxxxxxxxx)" pattern = "[6789][0-9]{9}">
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</span>
+						</div>
+						
+						<div class="container-login100-form-btn">
+							<button class="login100-form-btn" name = "submit">
+								Submit
+							</button>
+						</div>
+
+					</fieldset>
+				</form>
+				<form class="login100-form validate-form" method = "POST" action = "/perform_check_out">
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" name = "CheckOut" onclick = "openWin()">
+							CheckOut
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/tilt/tilt.jquery.min.js' %}"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 0.9
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="{% static 'js/main.js' %}"></script>
+	<script>
+		function openWin() {
+			window.open("http://127.0.0.1:8000/perform_check_out","_self");
+		}
+	</script>
+
+</body>
+</html>

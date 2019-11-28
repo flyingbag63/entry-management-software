@@ -1,21 +1,21 @@
 # entry-management-software
 A basic entry management software using HTML, CSS, JavaScript and Python Django
 
-##Installation
+## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django.
 
-```bash
+``` bash
 pip install django == 2.1.5
 ```
 
-##Login
+## Login
 ```bash
 python manage.py createsuperuser
 ```
 
-##Steps
+## Steps
 1. Go to the my_first_django_project folder and run
-```bash
+``` bash
 python manage.py runserver
 ```
 Then go to the browser and enter the url http://127.0.0.1:8000/

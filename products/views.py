@@ -12,8 +12,12 @@ def sendmail(content,receiver_mail):
 	password = input("Enter password:")
 
 	mail.starttls()
-	mail.login(email,password)
-	mail.sendmail(email,receiver_mail,content)
+	try:
+		mail.login(email,password)
+		mail.sendmail(email,receiver_mail,content)
+	except:
+		mail.close()
+		return
 
 	mail.close()
 
@@ -76,9 +80,11 @@ def showFinalPage(request):
 		content += 'Checkin Time: '+str(instance.check_in_time)+'\n'
 		content += 'Checkout Time: '+str(instance.check_out_time)+'\n'
 		content += 'Host Name: '+str(instance.host_name)+'\n'
-		content += 'Location: '+'address'+'\n'
+		location = input("Enter location: ")
+		content += 'Location: '+location+'\n'
 
 		sendmail(content,email)
 		instance.delete()
-		
-	return render(request,'checked_out.html')
+		return render(request,'checked_out.html')
+
+	return render(request, 'index.html')

@@ -10,7 +10,7 @@ pip install django == 2.1.5
 
 ## Steps
 1. Open CommandPrompt
-2. Go to the folder where you cloned the files(using cd) and run
+2. Go to the folder where you cloned the files(using cd), manage.py file should be in that folder, and run
 ``` bash
 python manage.py runserver
 ```

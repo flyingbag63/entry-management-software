@@ -15,7 +15,6 @@ def sendmail(content,receiver_mail):
 		mail.sendmail(email,receiver_mail,content)
 		mail.close()
 		success = True
-		break
 	except Exception:
 		mail.close()
 
@@ -61,8 +60,13 @@ def createpost(request):
 	content += 'Checkout Time: '+str(post.check_out_time)+'\n'
 
 	success = sendmail(content,post.host_email)
-	if not success:
-		print('Mail failed')
+	while not success:
+		what = input('TLS failed, want to provide email and password again? Y/N: ')
+		if what == 'N':
+			print('Mail failed')
+			break
+		elif what == 'Y':
+			success = sendmail(content,post.host_email)
 
 	sendSMS(content,post.host_phone)
 
@@ -75,21 +79,29 @@ def checkOut(request):
 def showFinalPage(request):
 	name = request.POST.get('visitor_name')
 	email = request.POST.get('visitor_email')
-	if(Entry.objects.filter(visitor_name = name,visitor_email = email).exists()) and name and email:
-		instance = Entry.objects.get(visitor_name = name,visitor_email = email)
-		content = '\nVisit Details: \n'
-		content += 'Name: '+str(instance.visitor_name)+'\n'
-		content += 'Phone: '+str(instance.visitor_phone)+'\n'
-		content += 'Checkin Time: '+str(instance.check_in_time)+'\n'
-		content += 'Checkout Time: '+str(instance.check_out_time)+'\n'
-		content += 'Host Name: '+str(instance.host_name)+'\n'
+	rows = Entry.objects.filter(visitor_name = name,visitor_email = email)
+	if rows and name and email:
 		location = input("Enter location: ")
-		content += 'Location: '+location+'\n'
+		for instance in rows:
+			content = '\nVisit Details: \n'
+			content += 'Name: '+str(instance.visitor_name)+'\n'
+			content += 'Phone: '+str(instance.visitor_phone)+'\n'
+			content += 'Checkin Time: '+str(instance.check_in_time)+'\n'
+			content += 'Checkout Time: '+str(instance.check_out_time)+'\n'
+			content += 'Host Name: '+str(instance.host_name)+'\n'
+			content += 'Location: '+location+'\n'
 
-		success = sendmail(content,email)
-		if not success:
-			print('Mail failed')
-		instance.delete()
+			success = sendmail(content,email)
+			while not success:
+				what = input('TLS failed, want to provide email and password again? Y/N: ')
+				if what == 'N':
+					print('Mail failed')
+					break
+				elif what == 'Y':
+					success = sendmail(content,email)
+
+			instance.delete()
+
 		return render(request,'checked_out.html')
 
 	return render(request, 'index.html')

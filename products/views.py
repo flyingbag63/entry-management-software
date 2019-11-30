@@ -3,10 +3,14 @@ from .models import Entry
 import smtplib
 import requests
 
-def sendmail(content,receiver_mail):
-	success = False
+def getEmailPassword():
 	email 	 = input("Enter a valid email to send mails from:")
 	password = input("Enter password:")
+
+	return email,password
+
+def sendmail(content,receiver_mail,email,password):
+	success = False
 	mail = smtplib.SMTP('smtp.gmail.com',587)
 	mail.ehlo()
 	mail.starttls()
@@ -59,14 +63,16 @@ def createpost(request):
 	content += 'Checkin Time: '+str(post.check_in_time)+'\n'
 	content += 'Checkout Time: '+str(post.check_out_time)+'\n'
 
-	success = sendmail(content,post.host_email)
+	email,password = getEmailPassword()
+	success = sendmail(content,post.host_email,email,password)
 	while not success:
 		what = input('TLS failed, want to provide email and password again? Y/N: ')
 		if what == 'N':
 			print('Mail failed')
 			break
 		elif what == 'Y':
-			success = sendmail(content,post.host_email)
+			email,password = getEmailPassword()
+			success = sendmail(content,post.host_email,email,password)
 
 	sendSMS(content,post.host_phone)
 
@@ -79,9 +85,14 @@ def checkOut(request):
 def showFinalPage(request):
 	name = request.POST.get('visitor_name')
 	email = request.POST.get('visitor_email')
-	rows = Entry.objects.filter(visitor_name = name,visitor_email = email)
-	if rows and name and email:
+	if Entry.objects.filter(visitor_name = name,visitor_email = email).exists():
+		rows = Entry.objects.filter(visitor_name = name,visitor_email = email)
+	else:
+		rows = []
+	#print(len(rows),'here')
+	if rows:
 		location = input("Enter location: ")
+		sender_email,password = getEmailPassword()
 		for instance in rows:
 			content = '\nVisit Details: \n'
 			content += 'Name: '+str(instance.visitor_name)+'\n'
@@ -91,14 +102,15 @@ def showFinalPage(request):
 			content += 'Host Name: '+str(instance.host_name)+'\n'
 			content += 'Location: '+location+'\n'
 
-			success = sendmail(content,email)
+			success = sendmail(content,email,sender_email,password)
 			while not success:
 				what = input('TLS failed, want to provide email and password again? Y/N: ')
 				if what == 'N':
 					print('Mail failed')
 					break
 				elif what == 'Y':
-					success = sendmail(content,email)
+					sender_email,password = getEmailPassword()
+					success = sendmail(content,email,sender_email,password)
 
 			instance.delete()
 

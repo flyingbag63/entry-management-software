@@ -57,7 +57,7 @@ def createpost(request):
 	content += 'Checkout Time: '+str(post.check_out_time)+'\n'
 
 	sendmail(content,post.host_email)
-	#sendSMS(content,post.host_phone)
+	sendSMS(content,post.host_phone)
 
 	return render(request, 'index.html')  
 

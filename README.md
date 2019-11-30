@@ -18,4 +18,4 @@ DO NOT CLOSE cmd
 Then go to the browser and enter the url http://127.0.0.1:8000/
 
 3. After adding details in the form you need to provide email and password to send emails from. Open cmd for that
-4. To perform checkout enter the name and email, and again provide email and password in cmd to send emails from.
+4. To perform checkout enter the name and email, and again provide email and password in cmd to send emails from. You also need to provide the location

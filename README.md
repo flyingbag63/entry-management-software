@@ -8,16 +8,13 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django.
 pip install django == 2.1.5
 ```
 
-## Login
-```bash
-python manage.py createsuperuser
-```
-
 ## Steps
-1. Go to the my_first_django_project folder and run
+1. Open CommandPrompt
+2. Go to the folder where you cloned the files(using cd) and run 
 ``` bash
 python manage.py runserver
 ```
 Then go to the browser and enter the url http://127.0.0.1:8000/
 
-2. After adding details in the form you need to provide email and password to send emails from
+3. After adding details in the form you need to provide email and password to send emails from. Open cmd for that
+4. To perform checkout enter the name and email, and again provide email and password in cmd to send emails from.

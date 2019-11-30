@@ -4,22 +4,22 @@ import smtplib
 import requests
 
 def sendmail(content,receiver_mail):
-	#print(content)
-	mail = smtplib.SMTP('smtp.gmail.com',587)
-	mail.ehlo()
-
+	success = False
 	email 	 = input("Enter a valid email to send mails from:")
 	password = input("Enter password:")
-
+	mail = smtplib.SMTP('smtp.gmail.com',587)
+	mail.ehlo()
 	mail.starttls()
 	try:
 		mail.login(email,password)
 		mail.sendmail(email,receiver_mail,content)
-	except:
 		mail.close()
-		return
+		success = True
+		break
+	except Exception:
+		mail.close()
 
-	mail.close()
+	return success
 
 def sendSMS(content,receiver_number):
 	url = "https://www.fast2sms.com/dev/bulk"
@@ -60,7 +60,10 @@ def createpost(request):
 	content += 'Checkin Time: '+str(post.check_in_time)+'\n'
 	content += 'Checkout Time: '+str(post.check_out_time)+'\n'
 
-	sendmail(content,post.host_email)
+	success = sendmail(content,post.host_email)
+	if not success:
+		print('Mail failed')
+
 	sendSMS(content,post.host_phone)
 
 	return render(request, 'index.html')  
@@ -83,7 +86,9 @@ def showFinalPage(request):
 		location = input("Enter location: ")
 		content += 'Location: '+location+'\n'
 
-		sendmail(content,email)
+		success = sendmail(content,email)
+		if not success:
+			print('Mail failed')
 		instance.delete()
 		return render(request,'checked_out.html')
 

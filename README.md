@@ -24,4 +24,4 @@ Then go to the browser and enter the url http://127.0.0.1:8000/
 
 Following diagram describes the workflow of the software
 
-![alt text](https://raw.githubusercontent.com/flyingbag63/entry-management-software/master/Untitled drawing.jpg)
+![alt text](https://raw.githubusercontent.com/flyingbag63/entry-management-software/master/diagram.jpg)
